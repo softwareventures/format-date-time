@@ -119,3 +119,7 @@ export const floorSeconds = formatTime.floorSeconds;
 /** Rounds the seconds portion of the specified {@link Timestamp} down and
  * formats the result as a 2-digit numeric string. */
 export const floorSeconds2 = formatTime.floorSeconds2;
+
+/** Rounds the seconds portion of the specified {@link Timestamp} down to the
+ * next lower millisecond, and formats the result as a 2.3-digit string. */
+export const secondsMs = formatTime.secondsMs;

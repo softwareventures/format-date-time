@@ -189,3 +189,9 @@ export function iso8601(options: Iso8601Options = {}): DateTimeFormatter {
     }[options.round ?? "none"];
     return dateTimeTemplate`${year4}${dateSeparator}${month2}${dateSeparator}${day2}${timeDelimiter}${hours2}${timeSeparator}${minutes2}${timeSeparator}${seconds}`;
 }
+
+/** Formats the specified {@link DateTime} as ISO 8601 extended, rounded down
+ * to the next lower second, and with the time delimited by a space `" "`.
+ *
+ * This format is intended to be reasonable for display to humans. */
+export const humanIso8601 = iso8601({round: "seconds", timeDelimiter: " "});

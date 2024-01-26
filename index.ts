@@ -74,3 +74,7 @@ export const hours = formatTime.hours;
 /** Formats the hours portion of the specified {@link DateTime} as a 2-digit
  * 24-hour numeric string. */
 export const hours2 = formatTime.hours2;
+
+/** Formats the hours portion of the specified {@link DateTime} as a 12-hour
+ * numeric string. */
+export const hours12 = formatTime.hours12;

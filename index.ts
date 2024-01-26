@@ -29,3 +29,7 @@ export function dateTimeTemplate(
 /** Formats the year portion of the specified {@link DateTime} as a numeric
  * string. */
 export const year = formatDate.year;
+
+/** Formats the year portion of the specified {@link DateTime} as a numeric
+ * string truncated to the last two digits. */
+export const shortYear = formatDate.shortYear;

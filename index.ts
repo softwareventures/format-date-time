@@ -47,3 +47,7 @@ export const month = formatDate.month;
 export const month2 = formatDate.month2;
 
 export {MonthName} from "@softwareventures/format-date";
+
+/** Formats the name of the month portion of the specified {@link DateTime}
+ * as a string, e.g. `"January"`. */
+export const monthName = formatDate.monthName;

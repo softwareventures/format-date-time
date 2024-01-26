@@ -111,3 +111,7 @@ export const seconds = formatTime.seconds;
  * Note that fractional seconds will not be rounded, so this might produce
  * a result similar to `"02.234"`. */
 export const seconds2 = formatTime.seconds2;
+
+/** Rounds the seconds portion of the specified {@link DateTime} down and
+ * formats the result as a numeric string. */
+export const floorSeconds = formatTime.floorSeconds;

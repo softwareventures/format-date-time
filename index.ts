@@ -92,3 +92,7 @@ export const amPm = formatTime.amPm;
 /** Formats the minutes portion of the specified {@link DateTime} as a
  * numeric string. */
 export const minutes = formatTime.minutes;
+
+/** Formats the minutes portion of the specified {@link DateTime} as a
+ * 2-digit numeric string. */
+export const minutes2 = formatTime.minutes2;

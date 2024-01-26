@@ -61,3 +61,7 @@ export const day = formatDate.day;
 export const day2 = formatDate.day2;
 
 export {DayOfWeek} from "@softwareventures/format-date";
+
+/** Formats the name of the day-of-the-week of the specified {@link DateTime}
+ * as a string, e.g. `"Monday"`. */
+export const dayOfWeek = formatDate.dayOfWeek;

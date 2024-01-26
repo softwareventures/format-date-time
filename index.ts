@@ -3,6 +3,7 @@
 import type {DateTime} from "@softwareventures/date-time";
 import {concatMap} from "@softwareventures/array";
 import * as formatDate from "@softwareventures/format-date";
+import * as formatTime from "@softwareventures/format-time";
 
 /** A function that formats a {@link DateTime} or part of a {@link DateTime} as
  * a string. */
@@ -65,3 +66,7 @@ export {DayOfWeek} from "@softwareventures/format-date";
 /** Formats the name of the day-of-the-week of the specified {@link DateTime}
  * as a string, e.g. `"Monday"`. */
 export const dayOfWeek = formatDate.dayOfWeek;
+
+/** Formats the hours portion of the specified {@link DateTime} as a 24-hour
+ * numeric string. */
+export const hours = formatTime.hours;

@@ -82,3 +82,5 @@ export const hours12 = formatTime.hours12;
 /** Formats the hours portion of the specified {@link DateTime} as a 2-digit
  * 12-hour numeric string. */
 export const hours122 = formatTime.hours122;
+
+export {AmPm} from "@softwareventures/format-time";

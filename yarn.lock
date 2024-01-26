@@ -1069,6 +1069,7 @@ __metadata:
     "@softwareventures/array": "npm:^7.0.0"
     "@softwareventures/date-time": "npm:^1.0.0"
     "@softwareventures/eslint-config": "npm:7.1.0"
+    "@softwareventures/format-date": "npm:^1.0.4"
     "@softwareventures/precise-commits": "npm:3.0.9"
     "@softwareventures/prettier-config": "npm:4.0.0"
     "@softwareventures/semantic-release-config": "npm:3.1.0"
@@ -1095,7 +1096,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@softwareventures/format-date@npm:^1.0.0":
+"@softwareventures/format-date@npm:^1.0.0, @softwareventures/format-date@npm:^1.0.4":
   version: 1.0.4
   resolution: "@softwareventures/format-date@npm:1.0.4"
   dependencies:

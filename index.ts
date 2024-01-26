@@ -2,6 +2,7 @@
 
 import type {DateTime} from "@softwareventures/date-time";
 import {concatMap} from "@softwareventures/array";
+import * as formatDate from "@softwareventures/format-date";
 
 /** A function that formats a {@link DateTime} or part of a {@link DateTime} as
  * a string. */
@@ -24,3 +25,7 @@ export function dateTimeTemplate(
 ): DateTimeFormatter {
     return dateTime => concatMap(texts, (text, i) => [text, formatters[i]?.(dateTime)]).join("");
 }
+
+/** Formats the year portion of the specified {@link DateTime} as a numeric
+ * string. */
+export const year = formatDate.year;

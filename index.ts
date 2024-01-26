@@ -37,3 +37,7 @@ export const shortYear = formatDate.shortYear;
 /** Formats the year portion of the specified {@link DateTime} as a numeric
  * string, zero-padded to at least four digits. */
 export const year4 = formatDate.year4;
+
+/** Formats the month portion of the specified {@link DateTime} as a numeric
+ * string. */
+export const month = formatDate.month;

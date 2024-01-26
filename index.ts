@@ -88,3 +88,7 @@ export {AmPm} from "@softwareventures/format-time";
 /** Returns `"AM"` or `"PM"` depending on the hour of the specified
  * {@link DateTime}. */
 export const amPm = formatTime.amPm;
+
+/** Formats the minutes portion of the specified {@link DateTime} as a
+ * numeric string. */
+export const minutes = formatTime.minutes;

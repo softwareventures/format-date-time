@@ -30,6 +30,7 @@
     "node": "^18 || >=20"
   },
   "dependencies": {
+    "@softwareventures/date-time": "^1.0.0",
     "tslib": "^2.5.0"
   },
   "devDependencies": {

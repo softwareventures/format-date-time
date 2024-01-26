@@ -84,3 +84,7 @@ export const hours12 = formatTime.hours12;
 export const hours122 = formatTime.hours122;
 
 export {AmPm} from "@softwareventures/format-time";
+
+/** Returns `"AM"` or `"PM"` depending on the hour of the specified
+ * {@link DateTime}. */
+export const amPm = formatTime.amPm;

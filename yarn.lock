@@ -1066,6 +1066,7 @@ __metadata:
     "@commitlint/cli": "npm:17.4.4"
     "@commitlint/config-conventional": "npm:17.4.4"
     "@commitlint/cz-commitlint": "npm:17.4.4"
+    "@softwareventures/array": "npm:^7.0.0"
     "@softwareventures/date-time": "npm:^1.0.0"
     "@softwareventures/eslint-config": "npm:7.1.0"
     "@softwareventures/precise-commits": "npm:3.0.9"

@@ -115,3 +115,7 @@ export const seconds2 = formatTime.seconds2;
 /** Rounds the seconds portion of the specified {@link DateTime} down and
  * formats the result as a numeric string. */
 export const floorSeconds = formatTime.floorSeconds;
+
+/** Rounds the seconds portion of the specified {@link Timestamp} down and
+ * formats the result as a 2-digit numeric string. */
+export const floorSeconds2 = formatTime.floorSeconds2;

@@ -70,3 +70,7 @@ export const dayOfWeek = formatDate.dayOfWeek;
 /** Formats the hours portion of the specified {@link DateTime} as a 24-hour
  * numeric string. */
 export const hours = formatTime.hours;
+
+/** Formats the hours portion of the specified {@link DateTime} as a 2-digit
+ * 24-hour numeric string. */
+export const hours2 = formatTime.hours2;

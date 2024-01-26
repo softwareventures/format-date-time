@@ -96,3 +96,10 @@ export const minutes = formatTime.minutes;
 /** Formats the minutes portion of the specified {@link DateTime} as a
  * 2-digit numeric string. */
 export const minutes2 = formatTime.minutes2;
+
+/** Formats the seconds portion of the specified {@link DateTime} as a
+ * numeric string.
+ *
+ * Note that fractional seconds will not be rounded, so this might produce
+ * a result similar to `"2.234"` */
+export const seconds = formatTime.seconds;

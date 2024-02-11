@@ -1040,22 +1040,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@softwareventures/eslint-config@npm:7.1.0"
+"@softwareventures/eslint-config@npm:7.3.0":
+  version: 7.3.0
+  resolution: "@softwareventures/eslint-config@npm:7.3.0"
   dependencies:
     tslib: "npm:^2.3.1"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.3.0
-    "@typescript-eslint/parser": ^5.3.0
+    "@typescript-eslint/eslint-plugin": ^5.3.0 || ^6.0.0
+    "@typescript-eslint/parser": ^5.3.0 || ^6.0.0
     eslint: ^7.0.0 || ^8.0.0
-    eslint-config-prettier: ^8.3.0
+    eslint-config-prettier: ^8.3.0 || ^9.0.0
     eslint-plugin-import: ^2.25.2
-    eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0
+    eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0 || ^40.0.0 || ^41.0.0 || ^42.0.0 || ^43.0.0 || ^44.0.0 || ^45.0.0 || ^46.0.0 || ^47.0.0 || ^48.0.0
     eslint-plugin-prefer-arrow: ^1.2.3
-    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0
-    typescript: ^3.8.3 || ^4.0.0
-  checksum: 14518d6471fc3d2826f4afa72c06a2979cf9c187676e9fdf403a25d989b6447835215b5e28d3dce7c756c963b5e93417590288e43f31f76a0a6a816c81702dd2
+    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0
+    typescript: ^3.8.3 || ^4.0.0 || ^5.0.0
+  checksum: a48483e8110cd376ba0db70f8e33be1c0ed4758769092ef784b407649d8b8d3cd226bcf37073399476da11eb2855bf1190497da75154e2450ad1e6d97ba50d46
   languageName: node
   linkType: hard
 
@@ -1068,7 +1068,7 @@ __metadata:
     "@commitlint/cz-commitlint": "npm:17.8.1"
     "@softwareventures/array": "npm:^7.0.0"
     "@softwareventures/date-time": "npm:^1.0.0"
-    "@softwareventures/eslint-config": "npm:7.1.0"
+    "@softwareventures/eslint-config": "npm:7.3.0"
     "@softwareventures/format-date": "npm:^1.0.4"
     "@softwareventures/format-time": "npm:^1.0.1"
     "@softwareventures/precise-commits": "npm:3.0.33"

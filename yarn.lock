@@ -1010,6 +1010,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@softwareventures/date-time@npm:^1.0.0 || ^2.0.0":
+  version: 2.0.0
+  resolution: "@softwareventures/date-time@npm:2.0.0"
+  dependencies:
+    "@softwareventures/date": "npm:^4.1.0"
+    "@softwareventures/format-date-time": "npm:^1.0.0"
+    "@softwareventures/nullable": "npm:^3.2.0"
+    "@softwareventures/ordered": "npm:^2.0.0"
+    "@softwareventures/time": "npm:^3.0.0"
+    is-integer: "npm:^1.0.7"
+    is-integer-in-range: "npm:^4.0.0"
+    tslib: "npm:^2.5.0"
+    unknown: "npm:^0.2.5"
+  checksum: 10c0/4967126d6b04e1d117568ea2fecf90b248aee756bf70bcd2273f7bb74dc5f4b704610ce6aa25671d2d64eab7e72a9fb97b40155690bfa3403636b4f3a3f935f5
+  languageName: node
+  linkType: hard
+
 "@softwareventures/date@npm:^1.4.2 || ^2.0.0 || ^3.0.0":
   version: 3.1.2
   resolution: "@softwareventures/date@npm:3.1.2"
@@ -1059,6 +1076,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@softwareventures/format-date-time@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@softwareventures/format-date-time@npm:1.0.0"
+  dependencies:
+    "@softwareventures/array": "npm:^7.0.0"
+    "@softwareventures/date-time": "npm:^1.0.0"
+    "@softwareventures/format-date": "npm:^1.0.4"
+    "@softwareventures/format-time": "npm:^1.0.1"
+    tslib: "npm:^2.5.0"
+  checksum: 10c0/891d69385284815d0ca49e5a89e1c5dd1d461ba626e878e36a48241bdd1bc467aaee082cdb33cc6aafdc3f45fc4d56335ed69e0e87345d2883c4fcbdc3453c91
+  languageName: node
+  linkType: hard
+
 "@softwareventures/format-date-time@workspace:.":
   version: 0.0.0-use.local
   resolution: "@softwareventures/format-date-time@workspace:."
@@ -1067,7 +1097,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:17.8.1"
     "@commitlint/cz-commitlint": "npm:17.8.1"
     "@softwareventures/array": "npm:^7.0.0"
-    "@softwareventures/date-time": "npm:^1.0.0"
+    "@softwareventures/date-time": "npm:^1.0.0 || ^2.0.0"
     "@softwareventures/eslint-config": "npm:7.3.0"
     "@softwareventures/format-date": "npm:^1.0.4"
     "@softwareventures/format-time": "npm:^1.0.1"
